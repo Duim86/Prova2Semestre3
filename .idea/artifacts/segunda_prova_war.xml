@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="segunda-prova:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>segunda-prova</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="segunda-prova.war">
+      <element id="artifact" artifact-name="segunda-prova:war exploded" />
+    </root>
+  </artifact>
+</component>
